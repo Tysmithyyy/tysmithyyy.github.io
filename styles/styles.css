@@ -1,10 +1,9 @@
 .blocker {
-    height: 20%;
-    background-image: linear-gradient(to bottom right, black, white);
+    height: 400px;
+    background-image: linear-gradient(to bottom right, black, white, white);
 }
 
 .intro {
-    margin-top: 5%;
-    margin-left: 5%;
+    margin-top: 50px;
     color: white;
 }
