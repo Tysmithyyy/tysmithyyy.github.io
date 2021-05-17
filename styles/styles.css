@@ -1,0 +1,10 @@
+.blocker {
+    height: 20%;
+    background-image: linear-gradient(to bottom right, black, white);
+}
+
+.intro {
+    margin-top: 5%;
+    margin-left: 5%;
+    color: white;
+}
