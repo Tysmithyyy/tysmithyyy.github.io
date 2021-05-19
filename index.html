@@ -82,7 +82,7 @@
       parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh ultricies vehicula.</p>
   </div>
   <div class="container" id="contact">
-    <form>
+    <form method="POST" name="contactme" action="php/form-to-email.php">
       <h2>Contact Me</h2>
       <div class="form-group">
         <label for="email" class="form-label mt-4">Email Address</label>
@@ -97,6 +97,7 @@
         <label for="message" class="form-label mt-4">Message</label>
         <textarea class="form-control" id="message" rows="3"></textarea>
       </div>
+      <input type="submit" value="Send">
     </form>
   </div>
 </body>
