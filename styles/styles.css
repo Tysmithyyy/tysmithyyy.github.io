@@ -4,9 +4,9 @@
 }
 
 .intro {
-    padding-top: 100px;
-    color: white;
-    font-weight: normal;
+  padding-top: 100px;
+  color: white;
+  font-weight: normal;
 }
 
 .info .icon {
@@ -55,8 +55,25 @@
   text-align: center !important; 
 }
 
-img {
+.selfie {
   height: 200px;
+}
+
+.preview {
+  width: 100%;
+  opacity: 0.6;
+  border-radius: 8px;
+}
+
+.preview:hover {
+  opacity: 1;
+  transform: scale(1.025);
+  transition-duration: 500ms;
+}
+
+.preview-overlay {
+  border-radius: 8px;
+  background: black;
 }
 
 /* BLINKING CURSOR */
